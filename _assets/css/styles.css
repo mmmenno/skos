@@ -9,7 +9,7 @@ body{
 }
 #topbar{
 	background-color: #000;
-	background-image: url(/_assets/img/top.jpg);
+	background-image: url(../img/top.jpg);
   	background-repeat: no-repeat;
   	background-size: cover;
 	color: #fff;
@@ -119,7 +119,7 @@ strong a{
 
 #footer{
 	background-color: #000;
-	background-image: url(/_assets/img/bottom.jpg);
+	background-image: url(../img/bottom.jpg);
   	background-repeat: no-repeat;
   	background-size: cover;
 	margin-top: 0;

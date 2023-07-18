@@ -205,7 +205,7 @@ include("_parts/header.php");
 
 			<div class="col-md-8" id="topconcepten">
 				<?php foreach($tops as $row){ ?>
-					🏔️ <strong><a href="/?concept=<?= $row['topconcept'] ?>"><?= $row['label'] ?></a></strong>
+					🏔️ <strong><a href="?concept=<?= $row['topconcept'] ?>"><?= $row['label'] ?></a></strong>
 					<span class="evensmaller">[<?= $row['nr'] ?>]</span>
 				<?php } ?>
 			</div>
