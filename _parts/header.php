@@ -14,7 +14,7 @@
 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" href="/_assets/css/styles.css" />
+	<link rel="stylesheet" href="_assets/css/styles.css" />
 
 	<!--<script defer data-domain="streetlife.amsterdamtimemachine.nl" src="https://plausible.io/js/script.js"></script>-->
 
