@@ -200,7 +200,7 @@ include("_parts/header.php");
 		<div class="row">
 
 			<div class="col-md-4">
-				<form action="/" method="get"><input type="text" name="q" id="searchbox" value="<?= $q ?>" /></form>
+				<form action="/skosdeboer/" method="get"><input type="text" name="q" id="searchbox" value="<?= $q ?>" /></form>
 			</div>
 
 			<div class="col-md-8" id="topconcepten">
