@@ -219,22 +219,22 @@ include("_parts/header.php");
 
 				<div class="col">
 					<?php foreach($column1 as $row){ ?>
-						<a href="/?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
+						<a href="?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
 					<?php } ?>
 				</div>
 				<div class="col">
 					<?php foreach($column2 as $row){ ?>
-						<a href="/?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
+						<a href="?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
 					<?php } ?>
 				</div>
 				<div class="col">
 					<?php foreach($column3 as $row){ ?>
-						<a href="/?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
+						<a href="?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
 					<?php } ?>
 				</div>
 				<div class="col">
 					<?php foreach($column4 as $row){ ?>
-						<a href="/?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
+						<a href="?concept=<?= $row['concept'] ?>"><?= $row['label'] ?></a><br />
 					<?php } ?>
 				</div>
 
@@ -245,7 +245,7 @@ include("_parts/header.php");
 			<div class="row">
 				<div class="col-md-12">
 					<?php foreach($broader as $row){ ?>
-						<strong><a href="/?concept=<?= $row['broader'] ?>"><?= $row['label'] ?></a></strong> ➡️ 
+						<strong><a href="?concept=<?= $row['broader'] ?>"><?= $row['label'] ?></a></strong> ➡️ 
 					<?php } ?>
 				</div>
 			</div>
@@ -288,7 +288,7 @@ include("_parts/header.php");
 				<div class="col-md-3">
 					<em>gerelateerde termen:</em><br />
 					<?php foreach($related as $row){ ?>
-						👩‍❤️‍👩 <a href="/?concept=<?= $row['related'] ?>"><?= $row['label'] ?></a> 
+						👩‍❤️‍👩 <a href="?concept=<?= $row['related'] ?>"><?= $row['label'] ?></a> 
 						<?php if($row['nr']>0){ ?>
 							<span class="evensmaller">[<?= $row['nr'] ?>]</span>
 						<?php } ?><br />
@@ -303,7 +303,7 @@ include("_parts/header.php");
 						<?php if($row['nr']>0){ ?>
 							<strong>
 						<?php } ?>
-						⬆️ <a href="/?concept=<?= $row['narrower'] ?>"><?= $row['label'] ?></a> 
+						⬆️ <a href="?concept=<?= $row['narrower'] ?>"><?= $row['label'] ?></a> 
 						<?php if($row['nr']>0){ ?>
 							</strong><span class="evensmaller">[<?= $row['nr'] ?>]</span>
 						<?php } ?>
